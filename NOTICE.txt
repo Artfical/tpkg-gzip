@@ -1,0 +1,5 @@
+gzip 1.13 for tOS
+==============
+
+Built from gzip-1.13.tar.xz (beside this package) on a Linux host with prefix /system/pkg/gzip, without changes to the source. License: GPL-3.0-or-later (LICENSE).
+glibc: dynamically linked against the GNU C Library, which tOS's base system carries.

@@ -1,0 +1,38 @@
+{
+ "name": "gzip",
+ "version": "1.13",
+ "license": "GPL-3.0-or-later",
+ "homepage": "",
+ "licenses": [
+  "LICENSE",
+  "NOTICE.txt"
+ ],
+ "sources": [
+  "gzip-1.13.tar.xz"
+ ],
+ "desc": "GNU gzip 1.13: gzip, gunzip, zcat",
+ "file": "gzip-1.13.tpkg",
+ "size": 71674,
+ "sha256": "090be7ac32b1c9fb3c10c1b38d112c385109732ce3118885c0476407c76837e6",
+ "unpacked": 142209,
+ "min_build": 619,
+ "depends": [
+  "bash"
+ ],
+ "commands": {
+  "gunzip": "bin/gunzip",
+  "gzexe": "bin/gzexe",
+  "gzip": "bin/gzip",
+  "uncompress": "bin/uncompress",
+  "zcat": "bin/zcat",
+  "zcmp": "bin/zcmp",
+  "zdiff": "bin/zdiff",
+  "zegrep": "bin/zegrep",
+  "zfgrep": "bin/zfgrep",
+  "zforce": "bin/zforce",
+  "zgrep": "bin/zgrep",
+  "zless": "bin/zless",
+  "zmore": "bin/zmore",
+  "znew": "bin/znew"
+ }
+}
